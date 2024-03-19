@@ -12,7 +12,7 @@ const answer = await inquirer.prompt([{
 ]);
 console.log(answer);
 
-// Conditional statement
+
 if(answer.operator === "Addition"){
     console.log( answer.firstnumber + answer.secondnumber);
     
